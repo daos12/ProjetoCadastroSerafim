@@ -1,3 +1,5 @@
+package projetocadastro;
+
 
 
 public class Pessoa {
@@ -35,6 +37,14 @@ public class Pessoa {
     public void setCpf(int cpf) {
         this.cpf = cpf;
     }
+    
+    public void impressao(){
+        System.out.println("nome:" + getNome());
+        System.out.println("idade:" + getIdade() );
+        System.out.println("cpf:" + getCpf() );
+    }
+            
+        
 
 
     
